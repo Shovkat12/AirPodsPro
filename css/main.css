@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 .header-hero{
-    width: 1600px;
+    width: 100vw;
     height: 700px;
     background-color: black;
     background-image: url(../img/Header\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
 }
 .header-hero_header{
     width: 100vw;
